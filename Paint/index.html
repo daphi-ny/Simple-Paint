@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" width="48" height="48" href="https://img.icons8.com/color/48/paint-palette.png" type="image/x-icon">
+
+    <title>Simple Paint</title>
+</head>
+<body>
+    <div class="itens">
+        <div class="ferramentas">
+            <input type="range" name="tamanhoPincel" id="tamanhoPincel" min="2" max="20" value="2" class="iten">
+            <input type="color"  id="trocarCor" class="iten">
+            <button id="borracha"><img width="48" height="48" src="https://img.icons8.com/external-konkapp-flat-konkapp/64/external-eraser-back-to-school-konkapp-flat-konkapp.png" alt="external-eraser-back-to-school-konkapp-flat-konkapp" class="iten"/></button>
+            <button id="limpar"><img width="48" height="48" src="https://img.icons8.com/color/48/trash--v1.png" alt="trash--v1" class="iten"/></button>
+            <button id="pincel"><img width="48" height="48" src="https://img.icons8.com/arcade/64/paint.png" alt="paint" class="iten"/></button>     
+    </div>
+        <div class="canvas-container">
+            <canvas id="tela"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
